@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+body {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1;
+    color:#303030;
+    background-color: #ffffff;
+}
+a {
+    color: #303030;
+}
+.text-white a {
+    color: white;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 36px;
+}
+.h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h3 {
+    font-size: 32px;
+}
+h4 {
+    font-size: 28px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+p {
+    white-space: pre-line;
+    line-height: 25px;
+}
+ul {
+    list-style-position: inside;
+}
+.btnbefore:before {
+    content: "\f0ab";
+}
+.collapsed .btnbefore:before {
+    content: "\f0a9";
+}
+h1.page-title {
+    font-size: 28px;
+}
+.container {
+    max-width: 730px;
+}
+.navbar-collapse {
+    border-radius : 5px;
+}
+.nav-item {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #532996;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-item:hover {
+    background: rgba(255,255,255,0.2);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.form-control {
+    font-size: 16px;
+    color: #303030;
+    border: 1px solid #333333;
+}
+.gradient-violet {
+    background: linear-gradient(0deg, rgba(118, 92, 170, 1) 0%, rgba(83, 41, 150, 1) 100%);
+}
+.bg-sitecolor {
+    background-color: #755ba9 !important;
+}
+.btn-sitecolor {
+    box-shadow: none;
+}
+.btn-sitecolor {
+    color: #fff;
+    background-color: #532996;
+    border-color: #532996;
+}
+.btn-sitecolor:hover {
+    color: #fff;
+    background-color: #793dd8;
+    border-color: #793dd8;
+}
+.btn-sitecolor:focus,
+.btn-sitecolor.focus {
+    color: #fff;
+    background-color: #793dd8;
+    border-color: #793dd8;
+    box-shadow: 0 0 0 0.2rem rgba(82, 161, 225, 0.5);
+}
+.heading-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.shadow-box {
+    box-shadow: 4px 14.01px 18.01px rgba(0, 0, 0, 0.75);
+}
+.card.inner-container {
+    border: 0px;
+}
+.semibold-text {
+    font-size: 22px;
+    font-weight: 600;
+}
+.bs-category .card, .bs-category .card-header {
+    background-color: transparent;
+    border: 0;
+}
+.bs-category .card-header .btn {
+    font-size: 0.7em;
+    color: #303030;
+    font-weight: 600;
+    padding: 0;
+    text-decoration: none;
+    text-align: left;
+}
+.btn-link {
+    color: #303030;
+}
+.bs-category .card-header .btn.btn-link {
+    font-size: 1em;
+}
+.bs-category .btn {
+    color: #303030;
+}
+.mc-title {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1;
+}
+.bs-category .card-header button.btn i {
+    color: #3490dc;
+    font-size: 1em;
+    padding: 0;
+    vertical-align: top;
+    margin-top: 4px;
+}
+.bs-category .btn:focus, .btn.focus {
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%);
+}
+.bs-category .card-body {
+    padding: 0 20px;
+}
+.group-header-row .d-inline {
+    vertical-align: bottom;
+}
+.back-button, .back-button:focus, .back-button:hover {
+    font-size: 20px;
+    color: #c8c8c8;
+    text-decoration: none;
+}
+.content {
+    position: relative;
+    padding-bottom: 70px;
+}
+#categoryaccordion li a {
+    text-decoration: underline;
+    text-indent: -10px;
+    display: inline-block;
+    padding-right: 20px;
+}
+#categoryaccordion li a.btn {
+    text-decoration: none;
+}
+.light-background {
+    background-color: rgb(83 41 150 / 0.15);
+}
+.heading-bold-text {
+    font-size: 42px;
+    font-weight: 700;
+}
+.navbar-light .navbar-toggler i.fa-1x {
+    font-size: 1.3em;
+}
+.navbar-light .navbar-toggler {
+    background: #adb5bd;
+}
+.accordion-button .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+.footer a {
+    color: white;
+}
