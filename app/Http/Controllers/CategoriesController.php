@@ -17,6 +17,8 @@ class CategoriesController extends Controller
     {
         $categories = Category::orderBy('name', 'asc')->get();
         return view('categories.all', compact('categories'));
+
+        
     }
 
     /**
